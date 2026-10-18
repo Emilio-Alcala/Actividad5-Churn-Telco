@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## [v1.1-modelos] - 2026-10-18
+### Agregado
+- `fuentes/train.py`: Grid Search (5-fold estratificado, AUC) para regresión logística y random forest, con registro en MLflow.
+- Notebook `entrena.ipynb`: EDA, pruebas estadísticas (t pareada, Wilcoxon, Nadeau-Bengio) y comparación de modelos.
+- `evidencias/`: gráficas, puntajes de validación cruzada y tabla comparativa.
+
 ## [v1.0-datos] - 2026-10-17
 ### Agregado
 - Dataset original Telco Customer Churn en `datos/datos_ini/` (sin modificar).

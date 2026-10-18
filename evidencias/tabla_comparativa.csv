@@ -1,0 +1,8 @@
+,logistic_regression,random_forest
+test_accuracy,0.8062,0.7913
+test_precision,0.6593,0.6739
+test_recall,0.5588,0.4144
+test_f1,0.6049,0.5132
+test_roc_auc,0.8415,0.8429
+test_precision_at_15,0.7123,0.6745
+test_recall_at_15,0.4037,0.3824
